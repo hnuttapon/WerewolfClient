@@ -37,7 +37,7 @@ namespace WerewolfAPI.Model
         [JsonConverter(typeof(StringEnumConverter))]
         public enum StatusEnum
         {
-            
+             
             /// <summary>
             /// Enum Playing for value: playing
             /// </summary>
