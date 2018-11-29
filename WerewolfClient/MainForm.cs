@@ -89,7 +89,7 @@ namespace WerewolfClient
                     switch (role)
                     {
                         case WerewolfModel.ROLE_SEER:
-                            img = Properties.Resources.Icon_seer;
+                            img = Properties.Resources.Icon_seer; //file 'sname in resource
                             break;
                         case WerewolfModel.ROLE_AURA_SEER:
                             img = Properties.Resources.Icon_aura_seer;

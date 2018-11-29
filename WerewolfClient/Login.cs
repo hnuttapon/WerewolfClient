@@ -68,7 +68,7 @@ namespace WerewolfClient
         private void BtnSignUp_Click(object sender, EventArgs e)
         {
             WerewolfCommand wcmd = new WerewolfCommand();
-            wcmd.Action = WerewolfCommand.CommandEnum.SignUp;
+            wcmd.Action = WerewolfCommand.CommandEnum.SignUp;//set
             wcmd.Payloads = new Dictionary<string, string>() { { "Login", TbLogin.Text}, { "Password",TbPassword.Text}, { "Server", TBServer.Text } };
             controller.ActionPerformed(wcmd);
         }
