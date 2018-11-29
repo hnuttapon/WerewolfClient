@@ -56,7 +56,6 @@ namespace WerewolfClient
         {
             controller = (WerewolfController)c;
         }
-
         private void BtnSignIn_Click(object sender, EventArgs e)
         {
             WerewolfCommand wcmd = new WerewolfCommand();
