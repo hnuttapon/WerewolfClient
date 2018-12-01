@@ -45,6 +45,7 @@
             this.BtnPlayer3 = new System.Windows.Forms.Button();
             this.BtnPlayer2 = new System.Windows.Forms.Button();
             this.BtnPlayer1 = new System.Windows.Forms.Button();
+            this.BtnPlayer0 = new System.Windows.Forms.Button();
             this.GBChat = new System.Windows.Forms.GroupBox();
             this.GBStatus = new System.Windows.Forms.GroupBox();
             this.LBTime = new System.Windows.Forms.Label();
@@ -55,11 +56,10 @@
             this.TbChatInput = new System.Windows.Forms.TextBox();
             this.TbChatBox = new System.Windows.Forms.TextBox();
             this.GBAction = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.signout = new System.Windows.Forms.Button();
             this.BtnJoin = new System.Windows.Forms.Button();
             this.BtnAction = new System.Windows.Forms.Button();
             this.BtnVote = new System.Windows.Forms.Button();
-            this.BtnPlayer0 = new System.Windows.Forms.Button();
             this.GBPlayers.SuspendLayout();
             this.GBChat.SuspendLayout();
             this.GBStatus.SuspendLayout();
@@ -88,7 +88,7 @@
             this.GBPlayers.Margin = new System.Windows.Forms.Padding(4);
             this.GBPlayers.Name = "GBPlayers";
             this.GBPlayers.Padding = new System.Windows.Forms.Padding(4);
-            this.GBPlayers.Size = new System.Drawing.Size(510, 466);
+            this.GBPlayers.Size = new System.Drawing.Size(659, 466);
             this.GBPlayers.TabIndex = 0;
             this.GBPlayers.TabStop = false;
             this.GBPlayers.Text = "Players";
@@ -303,6 +303,20 @@
             this.BtnPlayer1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnPlayer1.UseVisualStyleBackColor = true;
             // 
+            // BtnPlayer0
+            // 
+            this.BtnPlayer0.Image = ((System.Drawing.Image)(resources.GetObject("BtnPlayer0.Image")));
+            this.BtnPlayer0.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.BtnPlayer0.Location = new System.Drawing.Point(20, 23);
+            this.BtnPlayer0.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnPlayer0.Name = "BtnPlayer0";
+            this.BtnPlayer0.Size = new System.Drawing.Size(120, 111);
+            this.BtnPlayer0.TabIndex = 1;
+            this.BtnPlayer0.Tag = "0";
+            this.BtnPlayer0.Text = "Player";
+            this.BtnPlayer0.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnPlayer0.UseVisualStyleBackColor = true;
+            // 
             // GBChat
             // 
             this.GBChat.Controls.Add(this.GBStatus);
@@ -406,7 +420,7 @@
             // 
             // GBAction
             // 
-            this.GBAction.Controls.Add(this.button1);
+            this.GBAction.Controls.Add(this.signout);
             this.GBAction.Controls.Add(this.BtnJoin);
             this.GBAction.Controls.Add(this.BtnAction);
             this.GBAction.Controls.Add(this.BtnVote);
@@ -419,15 +433,16 @@
             this.GBAction.TabStop = false;
             this.GBAction.Text = "Action";
             // 
-            // button1
+            // signout
             // 
-            this.button1.Location = new System.Drawing.Point(348, 23);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 57);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "Sign Out";
-            this.button1.UseVisualStyleBackColor = true;
+            this.signout.Location = new System.Drawing.Point(348, 23);
+            this.signout.Margin = new System.Windows.Forms.Padding(4);
+            this.signout.Name = "signout";
+            this.signout.Size = new System.Drawing.Size(100, 57);
+            this.signout.TabIndex = 10;
+            this.signout.Text = "Sign Out";
+            this.signout.UseVisualStyleBackColor = true;
+            this.signout.Click += new System.EventHandler(this.signout_Click);
             // 
             // BtnJoin
             // 
@@ -461,20 +476,6 @@
             this.BtnVote.Text = "Vote";
             this.BtnVote.UseVisualStyleBackColor = true;
             this.BtnVote.Click += new System.EventHandler(this.BtnVote_Click);
-            // 
-            // BtnPlayer0
-            // 
-            this.BtnPlayer0.Image = ((System.Drawing.Image)(resources.GetObject("BtnPlayer0.Image")));
-            this.BtnPlayer0.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.BtnPlayer0.Location = new System.Drawing.Point(20, 23);
-            this.BtnPlayer0.Margin = new System.Windows.Forms.Padding(4);
-            this.BtnPlayer0.Name = "BtnPlayer0";
-            this.BtnPlayer0.Size = new System.Drawing.Size(120, 111);
-            this.BtnPlayer0.TabIndex = 1;
-            this.BtnPlayer0.Tag = "0";
-            this.BtnPlayer0.Text = "Player";
-            this.BtnPlayer0.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.BtnPlayer0.UseVisualStyleBackColor = true;
             // 
             // MainForm
             // 
@@ -529,7 +530,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button BtnAction;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button signout;
         private System.Windows.Forms.Button BtnPlayer0;
     }
 }
