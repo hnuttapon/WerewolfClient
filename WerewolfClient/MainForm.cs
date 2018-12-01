@@ -72,7 +72,7 @@ namespace WerewolfClient
                 if (player.Name == wm.Player.Name || player.Status != Player.StatusEnum.Alive)
                 {
                     // FIXME, need to optimize this
-                    Image img = Properties.Resources.Icon_villager;
+                    Image img = Properties.Resources.asp;
                     string role;
                     if (player.Name == wm.Player.Name)
                     {
