@@ -44,7 +44,6 @@ namespace WerewolfClient
             NOP = 1,
             SignUp = 2,
             SignIn = 3,
-             
             JoinGame = 4,
             GameStarted = 5,
             GameStopped = 6,
@@ -57,6 +56,8 @@ namespace WerewolfClient
             YouShotDead = 13,
             OtherShotDead = 14,
             Alive = 15,
+            Chat = 16,
+            ChatMessage = 17,
         }
         public const string ROLE_SEER = "Seer";
         public const string ROLE_AURA_SEER = "Aura Seer";
@@ -88,7 +89,6 @@ namespace WerewolfClient
         public const string ACTION_REVEAL = "Reveal";
         public const string ACTION_AURA = "Aura";
         public const string ACTION_REVIVE = "Revive";
-
         private EventEnum _event { get; set; }
         public EventEnum Event { get => _event; set => _event = value; }
         private Dictionary<string, string> _eventPayloads;
@@ -96,7 +96,7 @@ namespace WerewolfClient
 
         private Boolean _isPlaying = false;
         // default base path
-        private const string BASE_PATH = "http://project-ile.net:23416/werewolf/"; //http://project-ile.net:2344/werewolf/  //http://localhost:2343/werewolf/
+        private const string BASE_PATH = "http://project-ile.net:2343/werewolf/"; //http://project-ile.net:2343/werewolf/  //http://localhost:2343/werewolf/
         private Action _dayVoteAction = null;
         private Action _nightVoteAction = null;
         private Action _playerAction = null;
@@ -390,7 +390,7 @@ namespace WerewolfClient
                 _player = playerEP.AddPlayer(p);
 
                 Console.WriteLine(_player.Id);
-                _event = EventEnum.SignUp;
+                _event = EventEnum.SignIn;
                 _eventPayloads["Success"] = TRUE;
             } catch (Exception ex)
             {
@@ -401,25 +401,7 @@ namespace WerewolfClient
             }
             NotifyAll();
         }
-        public void SignOut(string server)
-        {
-            try
-            {
-                InitilizeModel(server);
-                List<Player> p = _playerEP.LogoutPlayer(_player.Session);
-                Console.WriteLine(_player.Id);
-                _event = EventEnum.SignOut;
-                _eventPayloads["Success"] = TRUE;
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.ToString());
-                _event = EventEnum.SignOut;
-                _eventPayloads["Success"] = FALSE;
-                _eventPayloads["Error"] = ex.ToString();
-            }
-            NotifyAll();
-        }
+
         public void Vote(string target)
         {
             try
