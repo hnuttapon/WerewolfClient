@@ -26,6 +26,7 @@ namespace WerewolfClient
         private string _myRole;
         private bool _isDead;
         private List<Player> players = null;
+        private Form _loginForm;
         public MainForm()
         {
             InitializeComponent();
@@ -267,6 +268,13 @@ namespace WerewolfClient
                             _isDead = false;
                         }
                         break;
+                    case EventEnum.SignOut:
+                        if(wm.EventPayloads["Success"] == WerewolfModel.TRUE)
+                        {
+                            this.Visible = false;
+                            _loginForm.Visible = true;
+                        }
+                        break;
                 }
                 // need to reset event
                 wm.Event = EventEnum.NOP;
@@ -360,6 +368,19 @@ namespace WerewolfClient
         private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             Environment.Exit(0);
+        }
+
+        private void signout_Click(object sender, EventArgs e)
+        {
+            Login login = (Login)_loginForm;
+            WerewolfCommand wcmd = new WerewolfCommand();
+            wcmd.Action = WerewolfCommand.CommandEnum.SignOut;
+            wcmd.Payloads = new Dictionary<string, string>() { { "Server", login.server  } };
+            controller.ActionPerformed(wcmd);
+        }
+        public void addForm(Form login)
+        {
+            _loginForm = login;
         }
     }
 }
