@@ -9,7 +9,7 @@ namespace WerewolfClient
     public class WerewolfCommand : Command
     {
         public new enum CommandEnum
-        {
+        {//
             SignUp = 1,
             SignIn = 2,
             SignOut = 3,
