@@ -263,7 +263,6 @@
             // 
             // BtnPlayer3
             // 
-            this.BtnPlayer3.Image = ((System.Drawing.Image)(resources.GetObject("BtnPlayer3.Image")));
             this.BtnPlayer3.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer3.Location = new System.Drawing.Point(371, 23);
             this.BtnPlayer3.Margin = new System.Windows.Forms.Padding(4);
@@ -277,7 +276,6 @@
             // 
             // BtnPlayer2
             // 
-            this.BtnPlayer2.Image = ((System.Drawing.Image)(resources.GetObject("BtnPlayer2.Image")));
             this.BtnPlayer2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer2.Location = new System.Drawing.Point(253, 23);
             this.BtnPlayer2.Margin = new System.Windows.Forms.Padding(4);
@@ -291,7 +289,6 @@
             // 
             // BtnPlayer1
             // 
-            this.BtnPlayer1.Image = ((System.Drawing.Image)(resources.GetObject("BtnPlayer1.Image")));
             this.BtnPlayer1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer1.Location = new System.Drawing.Point(136, 23);
             this.BtnPlayer1.Margin = new System.Windows.Forms.Padding(4);
@@ -305,7 +302,6 @@
             // 
             // BtnPlayer0
             // 
-            this.BtnPlayer0.Image = ((System.Drawing.Image)(resources.GetObject("BtnPlayer0.Image")));
             this.BtnPlayer0.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer0.Location = new System.Drawing.Point(20, 23);
             this.BtnPlayer0.Margin = new System.Windows.Forms.Padding(4);
