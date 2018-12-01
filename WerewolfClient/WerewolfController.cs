@@ -75,6 +75,6 @@ namespace WerewolfClient
                     }
                 }
             }
-        }
+        }//
     }
 }
