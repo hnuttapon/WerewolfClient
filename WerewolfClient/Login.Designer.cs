@@ -67,7 +67,7 @@
             // 
             this.TbLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TbLogin.Location = new System.Drawing.Point(176, 194);
-            this.TbLogin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TbLogin.Margin = new System.Windows.Forms.Padding(4);
             this.TbLogin.Name = "TbLogin";
             this.TbLogin.Size = new System.Drawing.Size(363, 34);
             this.TbLogin.TabIndex = 2;
@@ -76,7 +76,7 @@
             // 
             this.TbPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TbPassword.Location = new System.Drawing.Point(176, 246);
-            this.TbPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TbPassword.Margin = new System.Windows.Forms.Padding(4);
             this.TbPassword.Name = "TbPassword";
             this.TbPassword.PasswordChar = '*';
             this.TbPassword.Size = new System.Drawing.Size(363, 34);
@@ -86,7 +86,7 @@
             // 
             this.BtnSignIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSignIn.Location = new System.Drawing.Point(331, 303);
-            this.BtnSignIn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnSignIn.Margin = new System.Windows.Forms.Padding(4);
             this.BtnSignIn.Name = "BtnSignIn";
             this.BtnSignIn.Size = new System.Drawing.Size(125, 55);
             this.BtnSignIn.TabIndex = 4;
@@ -98,7 +98,7 @@
             // 
             this.BtnSignUp.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSignUp.Location = new System.Drawing.Point(176, 303);
-            this.BtnSignUp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnSignUp.Margin = new System.Windows.Forms.Padding(4);
             this.BtnSignUp.Name = "BtnSignUp";
             this.BtnSignUp.Size = new System.Drawing.Size(125, 55);
             this.BtnSignUp.TabIndex = 5;
@@ -110,7 +110,7 @@
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(232, 15);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(133, 114);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -139,6 +139,7 @@
             this.TBServer.Name = "TBServer";
             this.TBServer.Size = new System.Drawing.Size(151, 24);
             this.TBServer.TabIndex = 8;
+           
             // 
             // Login
             // 
@@ -154,7 +155,7 @@
             this.Controls.Add(this.TbLogin);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Login";
             this.Text = "Login";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

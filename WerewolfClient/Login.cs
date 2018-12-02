@@ -87,5 +87,7 @@ namespace WerewolfClient
                     break;
             }
         }
+
+    
     }
 }

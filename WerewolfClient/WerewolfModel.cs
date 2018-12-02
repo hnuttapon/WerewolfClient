@@ -97,7 +97,7 @@ namespace WerewolfClient
 
         private Boolean _isPlaying = false;
         // default base path
-        private const string BASE_PATH = "http://project-ile.net:2343/werewolf/"; //http://project-ile.net:2343/werewolf/  //http://localhost:2343/werewolf/
+        private const string BASE_PATH = "http://project-ile.net:2342/werewolf/"; //http://project-ile.net:2343/werewolf/  //http://localhost:2343/werewolf/
         private Action _dayVoteAction = null;
         private Action _nightVoteAction = null;
         private Action _playerAction = null;

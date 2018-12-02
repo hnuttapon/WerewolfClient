@@ -27,14 +27,16 @@ namespace WerewolfClient
         private bool _isDead;
         private List<Player> players = null;
         private Form _loginForm;
+        private Image img = Properties.Resources.Icon_villager;
+
         public MainForm()
         {
             InitializeComponent();
-
             foreach (int i in Enumerable.Range(0, 16))
             {
                 this.Controls["GBPlayers"].Controls["BtnPlayer" + i].Click += new System.EventHandler(this.BtnPlayerX_Click);
                 this.Controls["GBPlayers"].Controls["BtnPlayer" + i].Tag = i;
+                ((Button)Controls["GBPlayers"].Controls["BtnPlayer" + i]).Image = img;
             }
 
             _updateTimer = new Timer();
@@ -73,7 +75,7 @@ namespace WerewolfClient
                 if (player.Name == wm.Player.Name || player.Status != Player.StatusEnum.Alive)
                 {
                     // FIXME, need to optimize this
-                    Image img = Properties.Resources.asp;
+                    
                     string role;
                     if (player.Name == wm.Player.Name)
                     {
