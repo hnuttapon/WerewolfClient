@@ -63,6 +63,26 @@ namespace WerewolfClient.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap asd {
+            get {
+                object obj = ResourceManager.GetObject("asd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap asd1 {
+            get {
+                object obj = ResourceManager.GetObject("asd1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Icon_alpha_werewolf {
             get {
                 object obj = ResourceManager.GetObject("Icon_alpha_werewolf", resourceCulture);
@@ -79,15 +99,7 @@ namespace WerewolfClient.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap asd{
-            get
-            {
-                object obj = ResourceManager.GetObject("asd", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-
+        
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
@@ -124,16 +136,6 @@ namespace WerewolfClient.Properties {
         internal static System.Drawing.Bitmap Icon_gunner {
             get {
                 object obj = ResourceManager.GetObject("Icon_gunner", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Icon_head_hunter {
-            get {
-                object obj = ResourceManager.GetObject("Icon_head_hunter", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -177,16 +179,7 @@ namespace WerewolfClient.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap asp
-        {
-            get
-            {
-                object obj = ResourceManager.GetObject("Icon_seer", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-
+        
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
@@ -196,7 +189,15 @@ namespace WerewolfClient.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
+
+        internal static System.Drawing.Bitmap Icon_head_hunter
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("Icon_head_hunter", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
@@ -233,6 +234,16 @@ namespace WerewolfClient.Properties {
         internal static System.Drawing.Bitmap Icon_wolf_shaman {
             get {
                 object obj = ResourceManager.GetObject("Icon_wolf_shaman", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap night {
+            get {
+                object obj = ResourceManager.GetObject("night", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

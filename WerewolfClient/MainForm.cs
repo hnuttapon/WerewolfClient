@@ -27,7 +27,7 @@ namespace WerewolfClient
         private bool _isDead;
         private List<Player> players = null;
         private Form _loginForm;
-        private Image img = Properties.Resources.Icon_villager;
+        public Image img = Properties.Resources.asd;
 
         public MainForm()
         {
@@ -36,7 +36,9 @@ namespace WerewolfClient
             {
                 this.Controls["GBPlayers"].Controls["BtnPlayer" + i].Click += new System.EventHandler(this.BtnPlayerX_Click);
                 this.Controls["GBPlayers"].Controls["BtnPlayer" + i].Tag = i;
+                this.BackgroundImage = img;
                 ((Button)Controls["GBPlayers"].Controls["BtnPlayer" + i]).Image = img;
+                groupBox1.Visible = true;
             }
 
             _updateTimer = new Timer();
@@ -99,6 +101,7 @@ namespace WerewolfClient
                             break;
                         case WerewolfModel.ROLE_PRIEST:
                             img = Properties.Resources.Icon_priest;
+                           
                             break;
                         case WerewolfModel.ROLE_DOCTOR:
                             img = Properties.Resources.Icon_doctor;
@@ -172,6 +175,7 @@ namespace WerewolfClient
                         _myRole = wm.EventPayloads["Player.Role.Name"];
                         AddChatMessage("Your role is " + _myRole + ".");
                         _currentPeriod = Game.PeriodEnum.Night;
+
                         EnableButton(BtnAction, true);
                         switch (_myRole)
                         {
@@ -217,11 +221,13 @@ namespace WerewolfClient
                     case EventEnum.SwitchToDayTime:
                         AddChatMessage("Switch to day time of day #" + wm.EventPayloads["Game.Current.Day"] + ".");
                         _currentPeriod = Game.PeriodEnum.Day;
+                        groupBox1.Visible = false;
                         LBPeriod.Text = "Day time of";
                         break;
                     case EventEnum.SwitchToNightTime:
                         AddChatMessage("Switch to night time of day #" + wm.EventPayloads["Game.Current.Day"] + ".");
                         _currentPeriod = Game.PeriodEnum.Night;
+                        groupBox1.Visible = true;
                         LBPeriod.Text = "Night time of";
                         break;
                     case EventEnum.UpdateDay:
@@ -363,7 +369,7 @@ namespace WerewolfClient
         }
 
         private void BtnPlayerX_Click(object sender, EventArgs e)
-        {
+        {          
             Button btnPlayer = (Button)sender;
             int index = (int) btnPlayer.Tag;
             if (players == null)

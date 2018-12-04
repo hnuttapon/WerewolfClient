@@ -60,6 +60,7 @@
             this.BtnJoin = new System.Windows.Forms.Button();
             this.BtnAction = new System.Windows.Forms.Button();
             this.BtnVote = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.GBPlayers.SuspendLayout();
             this.GBChat.SuspendLayout();
             this.GBStatus.SuspendLayout();
@@ -68,6 +69,7 @@
             // 
             // GBPlayers
             // 
+            this.GBPlayers.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.GBPlayers.Controls.Add(this.BtnPlayer15);
             this.GBPlayers.Controls.Add(this.BtnPlayer14);
             this.GBPlayers.Controls.Add(this.BtnPlayer13);
@@ -315,6 +317,7 @@
             // 
             // GBChat
             // 
+            this.GBChat.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.GBChat.Controls.Add(this.GBStatus);
             this.GBChat.Controls.Add(this.TbChatInput);
             this.GBChat.Controls.Add(this.TbChatBox);
@@ -329,6 +332,7 @@
             // 
             // GBStatus
             // 
+            this.GBStatus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.GBStatus.Controls.Add(this.LBTime);
             this.GBStatus.Controls.Add(this.LBDay);
             this.GBStatus.Controls.Add(this.LBPeriod);
@@ -405,6 +409,7 @@
             // 
             // TbChatBox
             // 
+            this.TbChatBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.TbChatBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TbChatBox.Location = new System.Drawing.Point(32, 23);
             this.TbChatBox.Margin = new System.Windows.Forms.Padding(4);
@@ -416,6 +421,7 @@
             // 
             // GBAction
             // 
+            this.GBAction.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.GBAction.Controls.Add(this.signout);
             this.GBAction.Controls.Add(this.BtnJoin);
             this.GBAction.Controls.Add(this.BtnAction);
@@ -431,56 +437,80 @@
             // 
             // signout
             // 
+            this.signout.BackColor = System.Drawing.Color.DarkRed;
+            this.signout.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.signout.Location = new System.Drawing.Point(348, 23);
             this.signout.Margin = new System.Windows.Forms.Padding(4);
             this.signout.Name = "signout";
             this.signout.Size = new System.Drawing.Size(100, 57);
             this.signout.TabIndex = 10;
             this.signout.Text = "Sign Out";
-            this.signout.UseVisualStyleBackColor = true;
+            this.signout.UseVisualStyleBackColor = false;
             this.signout.Click += new System.EventHandler(this.signout_Click);
             // 
             // BtnJoin
             // 
+            this.BtnJoin.BackColor = System.Drawing.Color.Navy;
+            this.BtnJoin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.BtnJoin.Location = new System.Drawing.Point(240, 23);
             this.BtnJoin.Margin = new System.Windows.Forms.Padding(4);
             this.BtnJoin.Name = "BtnJoin";
             this.BtnJoin.Size = new System.Drawing.Size(100, 57);
             this.BtnJoin.TabIndex = 9;
             this.BtnJoin.Text = "Join Game";
-            this.BtnJoin.UseVisualStyleBackColor = true;
+            this.BtnJoin.UseVisualStyleBackColor = false;
             this.BtnJoin.Click += new System.EventHandler(this.BtnJoin_Click);
             // 
             // BtnAction
             // 
+            this.BtnAction.BackColor = System.Drawing.Color.Green;
+            this.BtnAction.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.BtnAction.Location = new System.Drawing.Point(132, 23);
             this.BtnAction.Margin = new System.Windows.Forms.Padding(4);
             this.BtnAction.Name = "BtnAction";
             this.BtnAction.Size = new System.Drawing.Size(100, 57);
             this.BtnAction.TabIndex = 1;
             this.BtnAction.Text = "Action";
-            this.BtnAction.UseVisualStyleBackColor = true;
+            this.BtnAction.UseVisualStyleBackColor = false;
             this.BtnAction.Click += new System.EventHandler(this.BtnAction_Click);
             // 
             // BtnVote
             // 
+            this.BtnVote.BackColor = System.Drawing.Color.Maroon;
+            this.BtnVote.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.BtnVote.Location = new System.Drawing.Point(24, 23);
             this.BtnVote.Margin = new System.Windows.Forms.Padding(4);
             this.BtnVote.Name = "BtnVote";
             this.BtnVote.Size = new System.Drawing.Size(100, 57);
             this.BtnVote.TabIndex = 0;
             this.BtnVote.Text = "Vote";
-            this.BtnVote.UseVisualStyleBackColor = true;
+            this.BtnVote.UseVisualStyleBackColor = false;
             this.BtnVote.Click += new System.EventHandler(this.BtnVote_Click);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.BackColor = System.Drawing.Color.Gainsboro;
+            this.groupBox1.BackgroundImage = global::WerewolfClient.Properties.Resources.night;
+            this.groupBox1.Location = new System.Drawing.Point(13, 0);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Size = new System.Drawing.Size(1834, 1066);
+            this.groupBox1.TabIndex = 4;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Chat";
+            
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1790, 771);
+            this.BackgroundImage = global::WerewolfClient.Properties.Resources.asd1;
+            this.ClientSize = new System.Drawing.Size(1868, 771);
             this.Controls.Add(this.GBAction);
             this.Controls.Add(this.GBChat);
             this.Controls.Add(this.GBPlayers);
+            this.Controls.Add(this.groupBox1);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainForm";
             this.Text = "Werewolf Client";
@@ -528,6 +558,7 @@
         private System.Windows.Forms.Button BtnAction;
         private System.Windows.Forms.Button signout;
         private System.Windows.Forms.Button BtnPlayer0;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }
 
