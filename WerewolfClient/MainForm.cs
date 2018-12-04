@@ -27,7 +27,7 @@ namespace WerewolfClient
         private bool _isDead;
         private List<Player> players = null;
         private Form _loginForm;
-        public Image img = Properties.Resources.asd;
+        public Image img = Properties.Resources.Icon_villager;
 
         public MainForm()
         {
@@ -74,7 +74,7 @@ namespace WerewolfClient
             foreach (Player player in wm.Players)
             {
                 Controls["GBPlayers"].Controls["BtnPlayer" + i].Text = player.Name;
-                if (player.Name == wm.Player.Name || player.Status != Player.StatusEnum.Alive)
+                if (player.Name == wm.Player.Name || player.Status == Player.StatusEnum.Alive)
                 {
                     // FIXME, need to optimize this
                     
