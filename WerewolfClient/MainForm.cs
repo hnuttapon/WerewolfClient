@@ -429,6 +429,6 @@ namespace WerewolfClient
             controller.ActionPerformed(wcmd);
         }
 
-        
+      
     }
 }

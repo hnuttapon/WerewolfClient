@@ -87,11 +87,11 @@
             this.GBPlayers.Controls.Add(this.BtnPlayer2);
             this.GBPlayers.Controls.Add(this.BtnPlayer1);
             this.GBPlayers.Controls.Add(this.BtnPlayer0);
-            this.GBPlayers.Location = new System.Drawing.Point(39, 36);
+            this.GBPlayers.Location = new System.Drawing.Point(26, 36);
             this.GBPlayers.Margin = new System.Windows.Forms.Padding(4);
             this.GBPlayers.Name = "GBPlayers";
             this.GBPlayers.Padding = new System.Windows.Forms.Padding(4);
-            this.GBPlayers.Size = new System.Drawing.Size(742, 613);
+            this.GBPlayers.Size = new System.Drawing.Size(1004, 941);
             this.GBPlayers.TabIndex = 0;
             this.GBPlayers.TabStop = false;
             this.GBPlayers.Text = "Players";
@@ -99,220 +99,220 @@
             // BtnPlayer15
             // 
             this.BtnPlayer15.Image = ((System.Drawing.Image)(resources.GetObject("BtnPlayer15.Image")));
-            this.BtnPlayer15.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.BtnPlayer15.Location = new System.Drawing.Point(585, 451);
+            this.BtnPlayer15.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnPlayer15.Location = new System.Drawing.Point(734, 713);
             this.BtnPlayer15.Margin = new System.Windows.Forms.Padding(4);
             this.BtnPlayer15.Name = "BtnPlayer15";
-            this.BtnPlayer15.Size = new System.Drawing.Size(150, 151);
+            this.BtnPlayer15.Size = new System.Drawing.Size(226, 223);
             this.BtnPlayer15.TabIndex = 16;
             this.BtnPlayer15.Tag = "15";
             this.BtnPlayer15.Text = "Player";
-            this.BtnPlayer15.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnPlayer15.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer15.UseVisualStyleBackColor = true;
             // 
             // BtnPlayer14
             // 
             this.BtnPlayer14.Image = ((System.Drawing.Image)(resources.GetObject("BtnPlayer14.Image")));
-            this.BtnPlayer14.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.BtnPlayer14.Location = new System.Drawing.Point(393, 451);
+            this.BtnPlayer14.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnPlayer14.Location = new System.Drawing.Point(503, 711);
             this.BtnPlayer14.Margin = new System.Windows.Forms.Padding(4);
             this.BtnPlayer14.Name = "BtnPlayer14";
-            this.BtnPlayer14.Size = new System.Drawing.Size(150, 151);
+            this.BtnPlayer14.Size = new System.Drawing.Size(226, 223);
             this.BtnPlayer14.TabIndex = 15;
             this.BtnPlayer14.Tag = "14";
             this.BtnPlayer14.Text = "Player";
-            this.BtnPlayer14.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnPlayer14.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer14.UseVisualStyleBackColor = true;
             // 
             // BtnPlayer13
             // 
             this.BtnPlayer13.Image = ((System.Drawing.Image)(resources.GetObject("BtnPlayer13.Image")));
-            this.BtnPlayer13.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.BtnPlayer13.Location = new System.Drawing.Point(224, 451);
+            this.BtnPlayer13.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnPlayer13.Location = new System.Drawing.Point(269, 711);
             this.BtnPlayer13.Margin = new System.Windows.Forms.Padding(4);
             this.BtnPlayer13.Name = "BtnPlayer13";
-            this.BtnPlayer13.Size = new System.Drawing.Size(150, 151);
+            this.BtnPlayer13.Size = new System.Drawing.Size(226, 223);
             this.BtnPlayer13.TabIndex = 14;
             this.BtnPlayer13.Tag = "13";
             this.BtnPlayer13.Text = "Player";
-            this.BtnPlayer13.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnPlayer13.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer13.UseVisualStyleBackColor = true;
             // 
             // BtnPlayer12
             // 
             this.BtnPlayer12.Image = ((System.Drawing.Image)(resources.GetObject("BtnPlayer12.Image")));
-            this.BtnPlayer12.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.BtnPlayer12.Location = new System.Drawing.Point(66, 451);
+            this.BtnPlayer12.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnPlayer12.Location = new System.Drawing.Point(35, 713);
             this.BtnPlayer12.Margin = new System.Windows.Forms.Padding(4);
             this.BtnPlayer12.Name = "BtnPlayer12";
-            this.BtnPlayer12.Size = new System.Drawing.Size(150, 151);
+            this.BtnPlayer12.Size = new System.Drawing.Size(226, 223);
             this.BtnPlayer12.TabIndex = 13;
             this.BtnPlayer12.Tag = "12";
             this.BtnPlayer12.Text = "Player";
-            this.BtnPlayer12.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnPlayer12.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer12.UseVisualStyleBackColor = true;
             // 
             // BtnPlayer11
             // 
             this.BtnPlayer11.Image = ((System.Drawing.Image)(resources.GetObject("BtnPlayer11.Image")));
-            this.BtnPlayer11.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.BtnPlayer11.Location = new System.Drawing.Point(585, 304);
+            this.BtnPlayer11.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnPlayer11.Location = new System.Drawing.Point(737, 480);
             this.BtnPlayer11.Margin = new System.Windows.Forms.Padding(4);
             this.BtnPlayer11.Name = "BtnPlayer11";
-            this.BtnPlayer11.Size = new System.Drawing.Size(150, 151);
+            this.BtnPlayer11.Size = new System.Drawing.Size(226, 223);
             this.BtnPlayer11.TabIndex = 12;
             this.BtnPlayer11.Tag = "11";
             this.BtnPlayer11.Text = "Player";
-            this.BtnPlayer11.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnPlayer11.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer11.UseVisualStyleBackColor = true;
             // 
             // BtnPlayer10
             // 
             this.BtnPlayer10.Image = ((System.Drawing.Image)(resources.GetObject("BtnPlayer10.Image")));
-            this.BtnPlayer10.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.BtnPlayer10.Location = new System.Drawing.Point(393, 304);
+            this.BtnPlayer10.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnPlayer10.Location = new System.Drawing.Point(503, 482);
             this.BtnPlayer10.Margin = new System.Windows.Forms.Padding(4);
             this.BtnPlayer10.Name = "BtnPlayer10";
-            this.BtnPlayer10.Size = new System.Drawing.Size(150, 151);
+            this.BtnPlayer10.Size = new System.Drawing.Size(226, 223);
             this.BtnPlayer10.TabIndex = 11;
             this.BtnPlayer10.Tag = "10";
             this.BtnPlayer10.Text = "Player";
-            this.BtnPlayer10.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnPlayer10.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer10.UseVisualStyleBackColor = true;
             // 
             // BtnPlayer9
             // 
             this.BtnPlayer9.Image = ((System.Drawing.Image)(resources.GetObject("BtnPlayer9.Image")));
-            this.BtnPlayer9.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.BtnPlayer9.Location = new System.Drawing.Point(224, 304);
+            this.BtnPlayer9.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnPlayer9.Location = new System.Drawing.Point(269, 480);
             this.BtnPlayer9.Margin = new System.Windows.Forms.Padding(4);
             this.BtnPlayer9.Name = "BtnPlayer9";
-            this.BtnPlayer9.Size = new System.Drawing.Size(150, 151);
+            this.BtnPlayer9.Size = new System.Drawing.Size(226, 223);
             this.BtnPlayer9.TabIndex = 10;
             this.BtnPlayer9.Tag = "9";
             this.BtnPlayer9.Text = "Player";
-            this.BtnPlayer9.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnPlayer9.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer9.UseVisualStyleBackColor = true;
             // 
             // BtnPlayer8
             // 
             this.BtnPlayer8.Image = ((System.Drawing.Image)(resources.GetObject("BtnPlayer8.Image")));
-            this.BtnPlayer8.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.BtnPlayer8.Location = new System.Drawing.Point(66, 304);
+            this.BtnPlayer8.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnPlayer8.Location = new System.Drawing.Point(35, 482);
             this.BtnPlayer8.Margin = new System.Windows.Forms.Padding(4);
             this.BtnPlayer8.Name = "BtnPlayer8";
-            this.BtnPlayer8.Size = new System.Drawing.Size(150, 151);
+            this.BtnPlayer8.Size = new System.Drawing.Size(226, 223);
             this.BtnPlayer8.TabIndex = 9;
             this.BtnPlayer8.Tag = "8";
             this.BtnPlayer8.Text = "Player";
-            this.BtnPlayer8.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnPlayer8.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer8.UseVisualStyleBackColor = true;
             // 
             // BtnPlayer7
             // 
             this.BtnPlayer7.Image = ((System.Drawing.Image)(resources.GetObject("BtnPlayer7.Image")));
-            this.BtnPlayer7.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.BtnPlayer7.Location = new System.Drawing.Point(585, 161);
+            this.BtnPlayer7.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnPlayer7.Location = new System.Drawing.Point(737, 254);
             this.BtnPlayer7.Margin = new System.Windows.Forms.Padding(4);
             this.BtnPlayer7.Name = "BtnPlayer7";
-            this.BtnPlayer7.Size = new System.Drawing.Size(150, 151);
+            this.BtnPlayer7.Size = new System.Drawing.Size(226, 223);
             this.BtnPlayer7.TabIndex = 8;
             this.BtnPlayer7.Tag = "7";
             this.BtnPlayer7.Text = "Player";
-            this.BtnPlayer7.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnPlayer7.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer7.UseVisualStyleBackColor = true;
             // 
             // BtnPlayer6
             // 
             this.BtnPlayer6.Image = ((System.Drawing.Image)(resources.GetObject("BtnPlayer6.Image")));
-            this.BtnPlayer6.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.BtnPlayer6.Location = new System.Drawing.Point(393, 161);
+            this.BtnPlayer6.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnPlayer6.Location = new System.Drawing.Point(503, 254);
             this.BtnPlayer6.Margin = new System.Windows.Forms.Padding(4);
             this.BtnPlayer6.Name = "BtnPlayer6";
-            this.BtnPlayer6.Size = new System.Drawing.Size(150, 151);
+            this.BtnPlayer6.Size = new System.Drawing.Size(226, 223);
             this.BtnPlayer6.TabIndex = 7;
             this.BtnPlayer6.Tag = "6";
             this.BtnPlayer6.Text = "Player";
-            this.BtnPlayer6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnPlayer6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer6.UseVisualStyleBackColor = true;
             // 
             // BtnPlayer5
             // 
             this.BtnPlayer5.Image = ((System.Drawing.Image)(resources.GetObject("BtnPlayer5.Image")));
-            this.BtnPlayer5.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.BtnPlayer5.Location = new System.Drawing.Point(224, 161);
+            this.BtnPlayer5.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnPlayer5.Location = new System.Drawing.Point(269, 254);
             this.BtnPlayer5.Margin = new System.Windows.Forms.Padding(4);
             this.BtnPlayer5.Name = "BtnPlayer5";
-            this.BtnPlayer5.Size = new System.Drawing.Size(150, 151);
+            this.BtnPlayer5.Size = new System.Drawing.Size(226, 223);
             this.BtnPlayer5.TabIndex = 6;
             this.BtnPlayer5.Tag = "5";
             this.BtnPlayer5.Text = "Player";
-            this.BtnPlayer5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnPlayer5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer5.UseVisualStyleBackColor = true;
             // 
             // BtnPlayer4
             // 
             this.BtnPlayer4.Image = global::WerewolfClient.Properties.Resources.Icon_villager;
-            this.BtnPlayer4.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.BtnPlayer4.Location = new System.Drawing.Point(66, 161);
+            this.BtnPlayer4.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnPlayer4.Location = new System.Drawing.Point(35, 254);
             this.BtnPlayer4.Margin = new System.Windows.Forms.Padding(4);
             this.BtnPlayer4.Name = "BtnPlayer4";
-            this.BtnPlayer4.Size = new System.Drawing.Size(150, 151);
+            this.BtnPlayer4.Size = new System.Drawing.Size(226, 223);
             this.BtnPlayer4.TabIndex = 5;
             this.BtnPlayer4.Tag = "4";
             this.BtnPlayer4.Text = "Player";
-            this.BtnPlayer4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnPlayer4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer4.UseVisualStyleBackColor = true;
             // 
             // BtnPlayer3
             // 
-            this.BtnPlayer3.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.BtnPlayer3.Location = new System.Drawing.Point(585, 13);
+            this.BtnPlayer3.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnPlayer3.Location = new System.Drawing.Point(737, 23);
             this.BtnPlayer3.Margin = new System.Windows.Forms.Padding(4);
             this.BtnPlayer3.Name = "BtnPlayer3";
-            this.BtnPlayer3.Size = new System.Drawing.Size(150, 151);
+            this.BtnPlayer3.Size = new System.Drawing.Size(226, 223);
             this.BtnPlayer3.TabIndex = 4;
             this.BtnPlayer3.Tag = "3";
-            this.BtnPlayer3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnPlayer3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer3.UseVisualStyleBackColor = true;
             // 
             // BtnPlayer2
             // 
-            this.BtnPlayer2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.BtnPlayer2.Location = new System.Drawing.Point(393, 13);
+            this.BtnPlayer2.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnPlayer2.Location = new System.Drawing.Point(503, 23);
             this.BtnPlayer2.Margin = new System.Windows.Forms.Padding(4);
             this.BtnPlayer2.Name = "BtnPlayer2";
-            this.BtnPlayer2.Size = new System.Drawing.Size(150, 151);
+            this.BtnPlayer2.Size = new System.Drawing.Size(226, 223);
             this.BtnPlayer2.TabIndex = 3;
             this.BtnPlayer2.Tag = "2";
             this.BtnPlayer2.Text = "Player";
-            this.BtnPlayer2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnPlayer2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer2.UseVisualStyleBackColor = true;
             // 
             // BtnPlayer1
             // 
-            this.BtnPlayer1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.BtnPlayer1.Location = new System.Drawing.Point(224, 13);
+            this.BtnPlayer1.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnPlayer1.Location = new System.Drawing.Point(269, 23);
             this.BtnPlayer1.Margin = new System.Windows.Forms.Padding(4);
             this.BtnPlayer1.Name = "BtnPlayer1";
-            this.BtnPlayer1.Size = new System.Drawing.Size(150, 151);
+            this.BtnPlayer1.Size = new System.Drawing.Size(226, 223);
             this.BtnPlayer1.TabIndex = 2;
             this.BtnPlayer1.Tag = "1";
             this.BtnPlayer1.Text = "Player";
-            this.BtnPlayer1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnPlayer1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer1.UseVisualStyleBackColor = true;
             // 
             // BtnPlayer0
             // 
-            this.BtnPlayer0.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.BtnPlayer0.Location = new System.Drawing.Point(66, 13);
+            this.BtnPlayer0.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnPlayer0.Location = new System.Drawing.Point(35, 23);
             this.BtnPlayer0.Margin = new System.Windows.Forms.Padding(4);
             this.BtnPlayer0.Name = "BtnPlayer0";
-            this.BtnPlayer0.Size = new System.Drawing.Size(150, 151);
+            this.BtnPlayer0.Size = new System.Drawing.Size(226, 223);
             this.BtnPlayer0.TabIndex = 1;
             this.BtnPlayer0.Tag = "0";
             this.BtnPlayer0.Text = "Player";
-            this.BtnPlayer0.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnPlayer0.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer0.UseVisualStyleBackColor = true;
             // 
             // GBChat
@@ -321,11 +321,11 @@
             this.GBChat.Controls.Add(this.GBStatus);
             this.GBChat.Controls.Add(this.TbChatInput);
             this.GBChat.Controls.Add(this.TbChatBox);
-            this.GBChat.Location = new System.Drawing.Point(1062, 36);
+            this.GBChat.Location = new System.Drawing.Point(1160, 36);
             this.GBChat.Margin = new System.Windows.Forms.Padding(4);
             this.GBChat.Name = "GBChat";
             this.GBChat.Padding = new System.Windows.Forms.Padding(4);
-            this.GBChat.Size = new System.Drawing.Size(856, 705);
+            this.GBChat.Size = new System.Drawing.Size(790, 705);
             this.GBChat.TabIndex = 2;
             this.GBChat.TabStop = false;
             this.GBChat.Text = "Chat";
@@ -338,7 +338,7 @@
             this.GBStatus.Controls.Add(this.LBPeriod);
             this.GBStatus.Controls.Add(this.label2);
             this.GBStatus.Controls.Add(this.label1);
-            this.GBStatus.Location = new System.Drawing.Point(690, 23);
+            this.GBStatus.Location = new System.Drawing.Point(610, 23);
             this.GBStatus.Margin = new System.Windows.Forms.Padding(4);
             this.GBStatus.Name = "GBStatus";
             this.GBStatus.Padding = new System.Windows.Forms.Padding(4);
@@ -403,7 +403,7 @@
             this.TbChatInput.Location = new System.Drawing.Point(32, 666);
             this.TbChatInput.Margin = new System.Windows.Forms.Padding(4);
             this.TbChatInput.Name = "TbChatInput";
-            this.TbChatInput.Size = new System.Drawing.Size(639, 30);
+            this.TbChatInput.Size = new System.Drawing.Size(554, 30);
             this.TbChatInput.TabIndex = 1;
             this.TbChatInput.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TbChatInput_Enter);
             // 
@@ -416,7 +416,7 @@
             this.TbChatBox.Multiline = true;
             this.TbChatBox.Name = "TbChatBox";
             this.TbChatBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.TbChatBox.Size = new System.Drawing.Size(639, 635);
+            this.TbChatBox.Size = new System.Drawing.Size(554, 635);
             this.TbChatBox.TabIndex = 0;
             // 
             // GBAction
@@ -426,7 +426,7 @@
             this.GBAction.Controls.Add(this.BtnJoin);
             this.GBAction.Controls.Add(this.BtnAction);
             this.GBAction.Controls.Add(this.BtnVote);
-            this.GBAction.Location = new System.Drawing.Point(267, 657);
+            this.GBAction.Location = new System.Drawing.Point(1336, 781);
             this.GBAction.Margin = new System.Windows.Forms.Padding(4);
             this.GBAction.Name = "GBAction";
             this.GBAction.Padding = new System.Windows.Forms.Padding(4);
@@ -507,12 +507,14 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WerewolfClient.Properties.Resources.asd1;
-            this.ClientSize = new System.Drawing.Size(1868, 771);
+            this.ClientSize = new System.Drawing.Size(1924, 1033);
             this.Controls.Add(this.GBPlayers);
             this.Controls.Add(this.groupBox1);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Werewolf Client";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.GBPlayers.ResumeLayout(false);
             this.GBChat.ResumeLayout(false);
