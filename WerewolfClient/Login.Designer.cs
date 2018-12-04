@@ -65,6 +65,7 @@
             // 
             // TbLogin
             // 
+            this.TbLogin.BackColor = System.Drawing.Color.LightGray;
             this.TbLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TbLogin.Location = new System.Drawing.Point(176, 194);
             this.TbLogin.Margin = new System.Windows.Forms.Padding(4);
@@ -74,6 +75,7 @@
             // 
             // TbPassword
             // 
+            this.TbPassword.BackColor = System.Drawing.Color.LightGray;
             this.TbPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TbPassword.Location = new System.Drawing.Point(176, 246);
             this.TbPassword.Margin = new System.Windows.Forms.Padding(4);
@@ -124,12 +126,13 @@
             this.label3.Location = new System.Drawing.Point(3, 145);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(145, 29);
+            this.label3.Size = new System.Drawing.Size(161, 29);
             this.label3.TabIndex = 7;
-            this.label3.Text = "API Address";
+            this.label3.Text = "Players Mode";
             // 
             // TBServer
             // 
+            this.TBServer.BackColor = System.Drawing.Color.LightGray;
             this.TBServer.FormattingEnabled = true;
             this.TBServer.Items.AddRange(new object[] {
             "2Players",
@@ -139,12 +142,12 @@
             this.TBServer.Name = "TBServer";
             this.TBServer.Size = new System.Drawing.Size(151, 24);
             this.TBServer.TabIndex = 8;
-           
             // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(563, 404);
             this.Controls.Add(this.TBServer);
             this.Controls.Add(this.label3);

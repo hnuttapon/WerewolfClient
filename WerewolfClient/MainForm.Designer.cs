@@ -65,6 +65,7 @@
             this.GBChat.SuspendLayout();
             this.GBStatus.SuspendLayout();
             this.GBAction.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // GBPlayers
@@ -90,7 +91,7 @@
             this.GBPlayers.Margin = new System.Windows.Forms.Padding(4);
             this.GBPlayers.Name = "GBPlayers";
             this.GBPlayers.Padding = new System.Windows.Forms.Padding(4);
-            this.GBPlayers.Size = new System.Drawing.Size(659, 466);
+            this.GBPlayers.Size = new System.Drawing.Size(514, 466);
             this.GBPlayers.TabIndex = 0;
             this.GBPlayers.TabStop = false;
             this.GBPlayers.Text = "Players";
@@ -272,7 +273,6 @@
             this.BtnPlayer3.Size = new System.Drawing.Size(120, 111);
             this.BtnPlayer3.TabIndex = 4;
             this.BtnPlayer3.Tag = "3";
-            this.BtnPlayer3.Text = "Player";
             this.BtnPlayer3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnPlayer3.UseVisualStyleBackColor = true;
             // 
@@ -321,7 +321,7 @@
             this.GBChat.Controls.Add(this.GBStatus);
             this.GBChat.Controls.Add(this.TbChatInput);
             this.GBChat.Controls.Add(this.TbChatBox);
-            this.GBChat.Location = new System.Drawing.Point(853, 13);
+            this.GBChat.Location = new System.Drawing.Point(813, 36);
             this.GBChat.Margin = new System.Windows.Forms.Padding(4);
             this.GBChat.Name = "GBChat";
             this.GBChat.Padding = new System.Windows.Forms.Padding(4);
@@ -491,15 +491,15 @@
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Gainsboro;
             this.groupBox1.BackgroundImage = global::WerewolfClient.Properties.Resources.night;
-            this.groupBox1.Location = new System.Drawing.Point(13, 0);
+            this.groupBox1.Controls.Add(this.GBChat);
+            this.groupBox1.ForeColor = System.Drawing.Color.Coral;
+            this.groupBox1.Location = new System.Drawing.Point(-63, 0);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(1834, 1066);
+            this.groupBox1.Size = new System.Drawing.Size(3000, 2500);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Chat";
-            
             // 
             // MainForm
             // 
@@ -508,7 +508,6 @@
             this.BackgroundImage = global::WerewolfClient.Properties.Resources.asd1;
             this.ClientSize = new System.Drawing.Size(1868, 771);
             this.Controls.Add(this.GBAction);
-            this.Controls.Add(this.GBChat);
             this.Controls.Add(this.GBPlayers);
             this.Controls.Add(this.groupBox1);
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -521,6 +520,7 @@
             this.GBStatus.ResumeLayout(false);
             this.GBStatus.PerformLayout();
             this.GBAction.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
