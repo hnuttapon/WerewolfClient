@@ -27,7 +27,7 @@ namespace WerewolfClient
         private bool _isDead;
         private List<Player> players = null;
         private Form _loginForm;
-        public Image img = Properties.Resources.Icon_villager;
+        public Image img = Properties.Resources.Icon_jailer;
         public Image bgimg = Properties.Resources.day;
 
         public MainForm()

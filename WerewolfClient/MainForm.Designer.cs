@@ -66,7 +66,7 @@
             this.GBChat.SuspendLayout();
             this.GBStatus.SuspendLayout();
             this.GBAction.SuspendLayout();
-            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // GBPlayers
@@ -437,7 +437,7 @@
             this.GBAction.Controls.Add(this.BtnJoin);
             this.GBAction.Controls.Add(this.BtnAction);
             this.GBAction.Controls.Add(this.BtnVote);
-            this.GBAction.Location = new System.Drawing.Point(1336, 781);
+            this.GBAction.Location = new System.Drawing.Point(1226, 805);
             this.GBAction.Margin = new System.Windows.Forms.Padding(4);
             this.GBAction.Name = "GBAction";
             this.GBAction.Padding = new System.Windows.Forms.Padding(4);
@@ -449,6 +449,7 @@
             // signout
             // 
             this.signout.BackColor = System.Drawing.Color.DarkRed;
+            this.signout.Font = new System.Drawing.Font("Papyrus", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.signout.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.signout.Location = new System.Drawing.Point(348, 23);
             this.signout.Margin = new System.Windows.Forms.Padding(4);
@@ -462,6 +463,7 @@
             // BtnJoin
             // 
             this.BtnJoin.BackColor = System.Drawing.Color.Navy;
+            this.BtnJoin.Font = new System.Drawing.Font("Papyrus", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnJoin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.BtnJoin.Location = new System.Drawing.Point(240, 23);
             this.BtnJoin.Margin = new System.Windows.Forms.Padding(4);
@@ -475,6 +477,7 @@
             // BtnAction
             // 
             this.BtnAction.BackColor = System.Drawing.Color.Green;
+            this.BtnAction.Font = new System.Drawing.Font("Papyrus", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAction.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.BtnAction.Location = new System.Drawing.Point(132, 23);
             this.BtnAction.Margin = new System.Windows.Forms.Padding(4);
@@ -488,6 +491,7 @@
             // BtnVote
             // 
             this.BtnVote.BackColor = System.Drawing.Color.Maroon;
+            this.BtnVote.Font = new System.Drawing.Font("Papyrus", 9F, System.Drawing.FontStyle.Bold);
             this.BtnVote.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.BtnVote.Location = new System.Drawing.Point(24, 23);
             this.BtnVote.Margin = new System.Windows.Forms.Padding(4);
@@ -498,10 +502,18 @@
             this.BtnVote.UseVisualStyleBackColor = false;
             this.BtnVote.Click += new System.EventHandler(this.BtnVote_Click);
             // 
-            
+            // groupBox1
+            // 
+            this.groupBox1.Location = new System.Drawing.Point(0, 0);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(200, 100);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
+            // 
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.Turquoise;
+            //this.groupBox2.Controls.Add(this.GBAction);
             this.groupBox2.Location = new System.Drawing.Point(51, 58);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(1939, 980);
@@ -516,8 +528,8 @@
             this.ClientSize = new System.Drawing.Size(1924, 1033);
             this.Controls.Add(this.GBPlayers);
             this.Controls.Add(this.GBChat);
-            this.Controls.Add(this.GBAction);
             this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.GBAction);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
@@ -530,7 +542,7 @@
             this.GBStatus.ResumeLayout(false);
             this.GBStatus.PerformLayout();
             this.GBAction.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

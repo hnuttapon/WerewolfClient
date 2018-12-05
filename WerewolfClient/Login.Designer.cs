@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.TbLogin = new System.Windows.Forms.TextBox();
@@ -134,15 +133,15 @@
             this.TBServer.Name = "TBServer";
             this.TBServer.Size = new System.Drawing.Size(151, 24);
             this.TBServer.TabIndex = 8;
-            this.TBServer.Text = "4Players";
+            this.TBServer.Text = "2Players";
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(232, 15);
+            this.pictureBox1.Image = global::WerewolfClient.Properties.Resources.Icon_werewolf;
+            this.pictureBox1.Location = new System.Drawing.Point(219, 8);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(133, 114);
+            this.pictureBox1.Size = new System.Drawing.Size(129, 123);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
