@@ -274,10 +274,11 @@ namespace WerewolfClient
                     case EventEnum.YouShotDead:
                         AddChatMessage("You're shot dead by gunner.");
                         _isDead = true;
-                        if (_isDead == true)
+                        if (_isDead)
                         {
                             bgimg = Properties.Resources.RIP;
                             this.BackgroundImage = bgimg;
+                            return;
                         }
                         break;
                     case EventEnum.OtherShotDead:
@@ -364,6 +365,8 @@ namespace WerewolfClient
             if (_isDead)
             {
                 AddChatMessage("You're dead!!");
+                bgimg = Properties.Resources.RIP;
+                this.BackgroundImage = bgimg;
                 return;
             }
             if (_actionActivated)
