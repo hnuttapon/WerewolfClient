@@ -49,7 +49,6 @@
             this.BtnAction = new System.Windows.Forms.Button();
             this.BtnVote = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.BtnPlayer15 = new System.Windows.Forms.Button();
             this.BtnPlayer14 = new System.Windows.Forms.Button();
             this.BtnPlayer13 = new System.Windows.Forms.Button();
@@ -62,10 +61,12 @@
             this.BtnPlayer6 = new System.Windows.Forms.Button();
             this.BtnPlayer5 = new System.Windows.Forms.Button();
             this.BtnPlayer4 = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.GBPlayers.SuspendLayout();
             this.GBChat.SuspendLayout();
             this.GBStatus.SuspendLayout();
             this.GBAction.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // GBPlayers
@@ -155,7 +156,7 @@
             this.GBChat.Controls.Add(this.TbChatInput);
             this.GBChat.Controls.Add(this.TbChatBox);
             this.GBChat.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.GBChat.Location = new System.Drawing.Point(1160, 36);
+            this.GBChat.Location = new System.Drawing.Point(1250, 39);
             this.GBChat.Margin = new System.Windows.Forms.Padding(4);
             this.GBChat.Name = "GBChat";
             this.GBChat.Padding = new System.Windows.Forms.Padding(4);
@@ -269,7 +270,7 @@
             this.GBAction.Controls.Add(this.BtnJoin);
             this.GBAction.Controls.Add(this.BtnAction);
             this.GBAction.Controls.Add(this.BtnVote);
-            this.GBAction.Location = new System.Drawing.Point(1226, 805);
+            this.GBAction.Location = new System.Drawing.Point(1442, 772);
             this.GBAction.Margin = new System.Windows.Forms.Padding(4);
             this.GBAction.Name = "GBAction";
             this.GBAction.Padding = new System.Windows.Forms.Padding(4);
@@ -341,15 +342,6 @@
             this.groupBox1.Size = new System.Drawing.Size(200, 100);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.BackColor = System.Drawing.Color.Turquoise;
-            this.groupBox2.Location = new System.Drawing.Point(-21, 58);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(2011, 980);
-            this.groupBox2.TabIndex = 7;
-            this.groupBox2.TabStop = false;
             // 
             // BtnPlayer15
             // 
@@ -519,14 +511,24 @@
             this.BtnPlayer4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer4.UseVisualStyleBackColor = true;
             // 
+            // groupBox2
+            // 
+            this.groupBox2.BackColor = System.Drawing.Color.Turquoise;
+            this.groupBox2.BackgroundImage = global::WerewolfClient.Properties.Resources.test;
+            this.groupBox2.Controls.Add(this.GBChat);
+            this.groupBox2.Controls.Add(this.GBAction);
+            this.groupBox2.Location = new System.Drawing.Point(0, -3);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(2061, 1080);
+            this.groupBox2.TabIndex = 7;
+            this.groupBox2.TabStop = false;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1924, 1033);
             this.Controls.Add(this.GBPlayers);
-            this.Controls.Add(this.GBChat);
-            this.Controls.Add(this.GBAction);
             this.Controls.Add(this.groupBox2);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainForm";
@@ -540,6 +542,7 @@
             this.GBStatus.ResumeLayout(false);
             this.GBStatus.PerformLayout();
             this.GBAction.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

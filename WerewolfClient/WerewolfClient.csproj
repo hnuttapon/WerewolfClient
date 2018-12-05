@@ -103,6 +103,7 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="Resources\asd.png" />
+    <None Include="Resources\test.png" />
     <None Include="Resources\day.jpg" />
     <None Include="Resources\icon.png" />
     <Content Include="Resources\Icon_alpha_werewolf.png" />
