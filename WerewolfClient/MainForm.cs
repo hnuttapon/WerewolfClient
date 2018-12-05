@@ -28,6 +28,7 @@ namespace WerewolfClient
         private List<Player> players = null;
         private Form _loginForm;
         public Image img = Properties.Resources.Icon_villager;
+        public Image bgimg = Properties.Resources.day;
 
         public MainForm()
         {
@@ -36,9 +37,11 @@ namespace WerewolfClient
             {
                 this.Controls["GBPlayers"].Controls["BtnPlayer" + i].Click += new System.EventHandler(this.BtnPlayerX_Click);
                 this.Controls["GBPlayers"].Controls["BtnPlayer" + i].Tag = i;
-                this.BackgroundImage = img;
+                this.BackgroundImage = bgimg;
                 ((Button)Controls["GBPlayers"].Controls["BtnPlayer" + i]).Image = img;
-                groupBox1.Visible = true;
+                
+                groupBox2.Visible = false;
+                            
             }
 
             _updateTimer = new Timer();
@@ -221,13 +224,16 @@ namespace WerewolfClient
                     case EventEnum.SwitchToDayTime:
                         AddChatMessage("Switch to day time of day #" + wm.EventPayloads["Game.Current.Day"] + ".");
                         _currentPeriod = Game.PeriodEnum.Day;
-                        groupBox1.Visible = false;
+                        //change background//////////////////////////////////////////////////////////////
+                        groupBox2.Visible = false;
+                        
                         LBPeriod.Text = "Day time of";
                         break;
                     case EventEnum.SwitchToNightTime:
                         AddChatMessage("Switch to night time of day #" + wm.EventPayloads["Game.Current.Day"] + ".");
                         _currentPeriod = Game.PeriodEnum.Night;
-                        groupBox1.Visible = true;
+                        ////////////////////////////////////////////////////////////////////////////////////
+                        groupBox2.Visible = true;
                         LBPeriod.Text = "Night time of";
                         break;
                     case EventEnum.UpdateDay:
@@ -429,6 +435,6 @@ namespace WerewolfClient
             controller.ActionPerformed(wcmd);
         }
 
-      
+       
     }
 }

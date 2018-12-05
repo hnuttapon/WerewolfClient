@@ -61,6 +61,7 @@
             this.BtnAction = new System.Windows.Forms.Button();
             this.BtnVote = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.GBPlayers.SuspendLayout();
             this.GBChat.SuspendLayout();
             this.GBStatus.SuspendLayout();
@@ -321,14 +322,16 @@
             this.GBChat.Controls.Add(this.GBStatus);
             this.GBChat.Controls.Add(this.TbChatInput);
             this.GBChat.Controls.Add(this.TbChatBox);
+            this.GBChat.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.GBChat.Location = new System.Drawing.Point(1160, 36);
             this.GBChat.Margin = new System.Windows.Forms.Padding(4);
             this.GBChat.Name = "GBChat";
             this.GBChat.Padding = new System.Windows.Forms.Padding(4);
             this.GBChat.Size = new System.Drawing.Size(790, 705);
-            this.GBChat.TabIndex = 2;
+            this.GBChat.TabIndex = 6;
             this.GBChat.TabStop = false;
             this.GBChat.Text = "Chat";
+            this.GBChat.UseWaitCursor = true;
             // 
             // GBStatus
             // 
@@ -346,6 +349,7 @@
             this.GBStatus.TabIndex = 8;
             this.GBStatus.TabStop = false;
             this.GBStatus.Text = "Status";
+            this.GBStatus.UseWaitCursor = true;
             // 
             // LBTime
             // 
@@ -356,6 +360,7 @@
             this.LBTime.Size = new System.Drawing.Size(16, 17);
             this.LBTime.TabIndex = 12;
             this.LBTime.Text = "0";
+            this.LBTime.UseWaitCursor = true;
             // 
             // LBDay
             // 
@@ -366,6 +371,7 @@
             this.LBDay.Size = new System.Drawing.Size(16, 17);
             this.LBDay.TabIndex = 11;
             this.LBDay.Text = "0";
+            this.LBDay.UseWaitCursor = true;
             // 
             // LBPeriod
             // 
@@ -376,6 +382,7 @@
             this.LBPeriod.Size = new System.Drawing.Size(57, 17);
             this.LBPeriod.TabIndex = 10;
             this.LBPeriod.Text = "Night of";
+            this.LBPeriod.UseWaitCursor = true;
             // 
             // label2
             // 
@@ -386,6 +393,7 @@
             this.label2.Size = new System.Drawing.Size(39, 17);
             this.label2.TabIndex = 9;
             this.label2.Text = "Time";
+            this.label2.UseWaitCursor = true;
             // 
             // label1
             // 
@@ -396,6 +404,7 @@
             this.label1.Size = new System.Drawing.Size(45, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Day #";
+            this.label1.UseWaitCursor = true;
             // 
             // TbChatInput
             // 
@@ -405,6 +414,7 @@
             this.TbChatInput.Name = "TbChatInput";
             this.TbChatInput.Size = new System.Drawing.Size(554, 30);
             this.TbChatInput.TabIndex = 1;
+            this.TbChatInput.UseWaitCursor = true;
             this.TbChatInput.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TbChatInput_Enter);
             // 
             // TbChatBox
@@ -418,6 +428,7 @@
             this.TbChatBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.TbChatBox.Size = new System.Drawing.Size(554, 635);
             this.TbChatBox.TabIndex = 0;
+            this.TbChatBox.UseWaitCursor = true;
             // 
             // GBAction
             // 
@@ -487,20 +498,15 @@
             this.BtnVote.UseVisualStyleBackColor = false;
             this.BtnVote.Click += new System.EventHandler(this.BtnVote_Click);
             // 
-            // groupBox1
+            
+            // groupBox2
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.Gainsboro;
-            this.groupBox1.BackgroundImage = global::WerewolfClient.Properties.Resources.night;
-            this.groupBox1.Controls.Add(this.GBAction);
-            this.groupBox1.Controls.Add(this.GBChat);
-            this.groupBox1.ForeColor = System.Drawing.Color.Coral;
-            this.groupBox1.Location = new System.Drawing.Point(-63, 0);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(3000, 2500);
-            this.groupBox1.TabIndex = 4;
-            this.groupBox1.TabStop = false;
+            this.groupBox2.BackColor = System.Drawing.Color.Turquoise;
+            this.groupBox2.Location = new System.Drawing.Point(51, 58);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(1939, 980);
+            this.groupBox2.TabIndex = 7;
+            this.groupBox2.TabStop = false;
             // 
             // MainForm
             // 
@@ -509,7 +515,9 @@
             this.BackgroundImage = global::WerewolfClient.Properties.Resources.asd1;
             this.ClientSize = new System.Drawing.Size(1924, 1033);
             this.Controls.Add(this.GBPlayers);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.GBChat);
+            this.Controls.Add(this.GBAction);
+            this.Controls.Add(this.groupBox2);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
@@ -545,22 +553,23 @@
         private System.Windows.Forms.Button BtnPlayer3;
         private System.Windows.Forms.Button BtnPlayer2;
         private System.Windows.Forms.Button BtnPlayer1;
+        private System.Windows.Forms.Button BtnPlayer0;
         private System.Windows.Forms.GroupBox GBChat;
-        private System.Windows.Forms.TextBox TbChatInput;
-        private System.Windows.Forms.TextBox TbChatBox;
-        private System.Windows.Forms.GroupBox GBAction;
-        private System.Windows.Forms.Button BtnVote;
-        private System.Windows.Forms.Button BtnJoin;
         private System.Windows.Forms.GroupBox GBStatus;
         private System.Windows.Forms.Label LBTime;
         private System.Windows.Forms.Label LBDay;
         private System.Windows.Forms.Label LBPeriod;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button BtnAction;
+        private System.Windows.Forms.TextBox TbChatInput;
+        private System.Windows.Forms.TextBox TbChatBox;
+        private System.Windows.Forms.GroupBox GBAction;
         private System.Windows.Forms.Button signout;
-        private System.Windows.Forms.Button BtnPlayer0;
+        private System.Windows.Forms.Button BtnJoin;
+        private System.Windows.Forms.Button BtnAction;
+        private System.Windows.Forms.Button BtnVote;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
     }
 }
 
