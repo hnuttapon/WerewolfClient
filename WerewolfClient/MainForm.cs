@@ -27,7 +27,7 @@ namespace WerewolfClient
         private bool _isDead;
         private List<Player> players = null;
         private Form _loginForm;
-        public Image img = Properties.Resources.Icon_jailer;
+        public Image img = Properties.Resources.Icon_villager;
         public Image bgimg = Properties.Resources.day;
 
         public MainForm()
@@ -40,7 +40,7 @@ namespace WerewolfClient
                 this.BackgroundImage = bgimg;
                 ((Button)Controls["GBPlayers"].Controls["BtnPlayer" + i]).Image = img;
                 
-                groupBox2.Visible = false;
+                groupBox2.Visible = true;
                             
             }
 
@@ -77,6 +77,7 @@ namespace WerewolfClient
             foreach (Player player in wm.Players)
             {
                 Controls["GBPlayers"].Controls["BtnPlayer" + i].Text = player.Name;
+                Controls["GBPlayers"].Controls["BtnPlayer" + i].Enabled = true;
                 if (player.Name == wm.Player.Name || player.Status == Player.StatusEnum.Alive)
                 {
                     // FIXME, need to optimize this
@@ -433,8 +434,6 @@ namespace WerewolfClient
             wcmd.Action = WerewolfCommand.CommandEnum.SignOut;
             wcmd.Payloads = new Dictionary<string, string>() { { "Server", login.server } };
             controller.ActionPerformed(wcmd);
-        }
-
-       
+        }  
     }
 }
