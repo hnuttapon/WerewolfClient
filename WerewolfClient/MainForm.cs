@@ -81,7 +81,7 @@ namespace WerewolfClient
                 if (player.Name == wm.Player.Name || player.Status == Player.StatusEnum.Alive)
                 {
                     // FIXME, need to optimize this
-                    
+                    Console.WriteLine(player.Id); 
                     string role;
                     if (player.Name == wm.Player.Name)
                     {
@@ -170,9 +170,11 @@ namespace WerewolfClient
                             MessageBox.Show("You can't join the game, please try again.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         }
                         break;
-                    case EventEnum.GameStopped:
+                    case EventEnum.GameStopped:////////////////
                         AddChatMessage("Game is finished, outcome is " + wm.EventPayloads["Game.Outcome"]);
                         _updateTimer.Enabled = false;
+                        BtnVote.Enabled = false;
+                        EnableButton(BtnAction, false);
                         break;
                     case EventEnum.GameStarted:
                         players = wm.Players;
