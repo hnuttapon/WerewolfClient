@@ -85,8 +85,9 @@
             // 
             // BtnSignIn
             // 
-            this.BtnSignIn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.BtnSignIn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(43)))), ((int)(((byte)(60)))));
             this.BtnSignIn.Font = new System.Drawing.Font("Papyrus", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSignIn.ForeColor = System.Drawing.Color.White;
             this.BtnSignIn.Location = new System.Drawing.Point(373, 374);
             this.BtnSignIn.Margin = new System.Windows.Forms.Padding(4);
             this.BtnSignIn.Name = "BtnSignIn";
@@ -98,8 +99,9 @@
             // 
             // BtnSignUp
             // 
-            this.BtnSignUp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.BtnSignUp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(63)))), ((int)(((byte)(76)))));
             this.BtnSignUp.Font = new System.Drawing.Font("Papyrus", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSignUp.ForeColor = System.Drawing.Color.White;
             this.BtnSignUp.Location = new System.Drawing.Point(176, 374);
             this.BtnSignUp.Margin = new System.Windows.Forms.Padding(4);
             this.BtnSignUp.Name = "BtnSignUp";
@@ -150,7 +152,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(109)))), ((int)(((byte)(104)))));
             this.ClientSize = new System.Drawing.Size(623, 482);
             this.Controls.Add(this.TBServer);
             this.Controls.Add(this.label3);

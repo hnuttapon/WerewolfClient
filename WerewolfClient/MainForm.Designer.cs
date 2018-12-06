@@ -70,7 +70,7 @@
             // 
             // GBPlayers
             // 
-            this.GBPlayers.BackColor = System.Drawing.Color.BurlyWood;
+            this.GBPlayers.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(204)))), ((int)(((byte)(220)))));
             this.GBPlayers.Controls.Add(this.BtnPlayer15);
             this.GBPlayers.Controls.Add(this.BtnPlayer14);
             this.GBPlayers.Controls.Add(this.BtnPlayer13);
@@ -318,7 +318,7 @@
             // 
             // GBChat
             // 
-            this.GBChat.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.GBChat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(76)))), ((int)(((byte)(85)))));
             this.GBChat.Controls.Add(this.GBStatus);
             this.GBChat.Controls.Add(this.TbChatInput);
             this.GBChat.Controls.Add(this.TbChatBox);
@@ -335,7 +335,7 @@
             // 
             // GBStatus
             // 
-            this.GBStatus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.GBStatus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(204)))), ((int)(((byte)(220)))));
             this.GBStatus.Controls.Add(this.LBTime);
             this.GBStatus.Controls.Add(this.LBDay);
             this.GBStatus.Controls.Add(this.LBPeriod);
@@ -419,7 +419,7 @@
             // 
             // TbChatBox
             // 
-            this.TbChatBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.TbChatBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(237)))), ((int)(((byte)(240)))));
             this.TbChatBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TbChatBox.Location = new System.Drawing.Point(32, 23);
             this.TbChatBox.Margin = new System.Windows.Forms.Padding(4);
@@ -432,7 +432,7 @@
             // 
             // GBAction
             // 
-            this.GBAction.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.GBAction.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(143)))), ((int)(((byte)(133)))));
             this.GBAction.Controls.Add(this.signout);
             this.GBAction.Controls.Add(this.BtnJoin);
             this.GBAction.Controls.Add(this.BtnAction);
@@ -448,7 +448,7 @@
             // 
             // signout
             // 
-            this.signout.BackColor = System.Drawing.Color.DarkRed;
+            this.signout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(135)))), ((int)(((byte)(163)))));
             this.signout.Font = new System.Drawing.Font("Papyrus", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.signout.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.signout.Location = new System.Drawing.Point(348, 23);
@@ -462,9 +462,9 @@
             // 
             // BtnJoin
             // 
-            this.BtnJoin.BackColor = System.Drawing.Color.Navy;
+            this.BtnJoin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(110)))), ((int)(((byte)(112)))));
             this.BtnJoin.Font = new System.Drawing.Font("Papyrus", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnJoin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BtnJoin.ForeColor = System.Drawing.Color.White;
             this.BtnJoin.Location = new System.Drawing.Point(240, 23);
             this.BtnJoin.Margin = new System.Windows.Forms.Padding(4);
             this.BtnJoin.Name = "BtnJoin";
@@ -476,9 +476,9 @@
             // 
             // BtnAction
             // 
-            this.BtnAction.BackColor = System.Drawing.Color.Green;
+            this.BtnAction.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(126)))), ((int)(((byte)(78)))), ((int)(((byte)(96)))));
             this.BtnAction.Font = new System.Drawing.Font("Papyrus", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnAction.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.BtnAction.ForeColor = System.Drawing.Color.White;
             this.BtnAction.Location = new System.Drawing.Point(132, 23);
             this.BtnAction.Margin = new System.Windows.Forms.Padding(4);
             this.BtnAction.Name = "BtnAction";
@@ -490,9 +490,9 @@
             // 
             // BtnVote
             // 
-            this.BtnVote.BackColor = System.Drawing.Color.Maroon;
+            this.BtnVote.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(15)))), ((int)(((byte)(26)))));
             this.BtnVote.Font = new System.Drawing.Font("Papyrus", 9F, System.Drawing.FontStyle.Bold);
-            this.BtnVote.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.BtnVote.ForeColor = System.Drawing.Color.White;
             this.BtnVote.Location = new System.Drawing.Point(24, 23);
             this.BtnVote.Margin = new System.Windows.Forms.Padding(4);
             this.BtnVote.Name = "BtnVote";

@@ -444,6 +444,8 @@ namespace WerewolfClient
             wcmd.Action = WerewolfCommand.CommandEnum.SignOut;
             wcmd.Payloads = new Dictionary<string, string>() { { "Server", login.server } };
             controller.ActionPerformed(wcmd);
-        }  
+        }
+
+      
     }
 }
